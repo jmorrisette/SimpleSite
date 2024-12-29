@@ -2,13 +2,26 @@
 <html>
 <head>
     <title>Simple Site</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="./tailslim.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/frenchie.png">
 </head>
 <body>
 
-    <h1>Simple Site</h1>
-    <p>A <i>simple</i> website for testing different hosting options.</p>
+    <div class="flex flex-col min-h-screen">
+        <div class="bg-red-500 text-white text-center pt-10 px-3">
+            <h2 class="text-5xl font-bold"><a href="#">Simple Site  </a></h2>
+            
+        </div>
+        <div class="grow px-4 pb-8 pt-7 m-auto max-width">
+            Main Section 
+        </div>
+        <div class="bg-red-500 text-white text-center pt-9">
+            Footer
+        </div>
+    </div>
+
+
 
 </body>
 </html>
